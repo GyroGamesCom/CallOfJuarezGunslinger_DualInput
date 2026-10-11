@@ -1,0 +1,30 @@
+DUAL INPUT MOD for Call of Juarez: Gunslinger
+=============================================
+
+Gyro and the right trackpad/stick work at the same time, without stutter.
+Full details are in README.md.
+
+INSTALLATION
+  1. Unzip anywhere.
+  2. Run install.bat. It finds the game through Steam (or asks for the folder).
+     When updating, it keeps your settings.
+  Manual: copy the 3 files from the "mod" folder next to CoJGunslinger.exe
+  (Steam: right-click the game > Manage > Browse local files).
+
+UNINSTALL
+  Run uninstall.bat (or delete dinput8.dll, xinput1_3.dll,
+  xinput_mouse.ini and xinput_mouse.log from the game folder).
+
+STEAM INPUT
+  Gyro            -> "As Mouse"
+  Right trackpad  -> "Joystick" (right stick)
+  Everything else -> normal gamepad
+
+SENSITIVITY
+  Gyro:      Steam Input gyro sensitivity, or "Sensitivity" in xinput_mouse.ini
+  Trackpad:  Steam Input trackpad settings
+  The in-game right-stick sensitivity applies to both gyro and trackpad.
+  Set it so gyro feels right first, then fine-tune the trackpad in Steam.
+  Changes to the ini take effect after restarting the game.
+
+Unofficial mod, not affiliated with Techland or Ubisoft. Use at your own risk.
